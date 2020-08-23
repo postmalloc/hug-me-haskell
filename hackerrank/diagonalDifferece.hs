@@ -1,0 +1,1 @@
+diagonalDifference arr = abs $ sum (zipWith (!!) arr [0..]) - sum(zipWith (!!) (map reverse arr) [0..])

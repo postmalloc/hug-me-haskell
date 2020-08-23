@@ -1,0 +1,1 @@
+main = do interact $ show . sum . map read . tail . words
